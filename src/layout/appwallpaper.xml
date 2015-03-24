@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/a"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/Button"
+        android:center="gravity"
+        android:text="start "
+        android:layout_gravity="bottom"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:focusable="true" />
+</LinearLayout>
